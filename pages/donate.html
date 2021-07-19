@@ -14,6 +14,13 @@
 	<!-- Website Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
 
+	<!-- Redirect to TLS site -->
+	<script>
+		var host = "uvucsc.com";
+		if ((host == window.location.host) && (window.location.protocol != "https:"))
+		    window.location.protocol = "https:";
+	</script>
+
 	<title>Cyber Security Club</title>
 </head>
 <body>
