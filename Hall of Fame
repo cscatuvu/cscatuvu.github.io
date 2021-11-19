@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Custome CSS -->
+	<link rel="stylesheet" href="../css/custom.css">
+
+	<!-- Website Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
+
+	<!-- Redirect to TLS site -->
+	<script>
+		var host = "uvucsc.com";
+		if ((host == window.location.host) && (window.location.protocol != "https:"))
+		    window.location.protocol = "https:";
+	</script>
+
+	<title>Cyber Security Club</title>
+</head>
+<body>
+
+	<!-- Navbar for all webpages. Any changes here need to be reflected on ALL html pages -->
+
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand img-fluid" href="../index.html">Cyber Security Club</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="sponsors.html">Sponsors</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="resources.html">Resources</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="events.html">Events</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="donate.html">Donate</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contactus.html">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Navbar end -->
+
+	<div class="container">
+
+		<!-- Hall of Fame section -->
+
+		<div class="row">
+			<div class="col jumbotron">
+				<h1 class="text-center">Hacktober 2021<h1>
+                <br>
+				<h5 class="text-center">These are the people who absolutly pwned Hacktober of 2021!</h5>
+                <br>
+				<div class="row justify-content-center">
+					<b class="lead text-center col-8">First Place: Christopher Wilkinson</b>
+                    <p class="lead text-center col-8">Second Place: Fruitcup and Farbs</p>
+                    <p class="lead text-center col-8">Third Place: Oden</p>
+                    <p class="lead text-center col-8">Fourth Place: Stella_Artemis </p>
+				</div>
+				<div class="row justify-content-left">
+					<p class="text-center col-6">
+						<b>Where:</b> Discord
+						<br>
+						<b>When:</b> 7:00pm
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Hall of Fame section -->
+
+
+	</div>
+
+
+
+	<!-- Javascript is placed at the end of the page. Also make sure this is at the end or else all JS related items break -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- For the icons used on the page -->
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+	<!-- End of JS section, and also end of the html page (Nothing else beyond this besides the last body and html tag) -->
+</body>
+</html>
